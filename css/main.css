@@ -72,6 +72,10 @@ body {
         padding: 20px 30px;
     }
 
+    .menu  {
+        margin: 0;
+    }
+
     .logo-link {
         margin: 0;
     }
