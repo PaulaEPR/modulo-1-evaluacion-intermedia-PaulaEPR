@@ -1,5 +1,5 @@
 <h1 align="center">👨‍💻 Módulo 1 - Evaluación intermedia</h1>
-<h3 align="center">¡Hola 👋! Soy Paula Perera</h3>
+<h3>¡Hola 👋! Soy Paula Perera</h3>
 
 - Este es mi ejercicio para la evaluación intermedia.
 - He usado los siguientes lenguajes:
