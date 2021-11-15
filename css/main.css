@@ -61,3 +61,22 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* Responsive */
+
+@media all and (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 20px 30px;
+    }
+
+    .logo-link {
+        margin: 0;
+    }
+
+    .claim {
+        font-size: 40px;
+    }
+}
