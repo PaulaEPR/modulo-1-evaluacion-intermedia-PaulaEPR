@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    text-transform: uppercase;
+    display: flex;
+    list-style-type: none;
+}
+
+/* Main */
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.claim {
+    display: flex;
+    justify-content: center;
+}
