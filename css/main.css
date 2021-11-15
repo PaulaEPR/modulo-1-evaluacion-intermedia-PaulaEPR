@@ -1,3 +1,9 @@
+:root {
+    --colorTxt: #4a4a4a;
+    --colorBkg: #3cdbc0;
+    --colorTitle: #fff;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -11,16 +17,31 @@ body {
 
 .header {
     width: 100%;
+    background-color: var(--colorTitle);
     position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.logo-link {
+    margin: 10px 0;
+}
+
+.logo-img {
+    width: 155px;
+}
+
 .menu {
     text-transform: uppercase;
+    font-size: 16px;
     display: flex;
     list-style-type: none;
+    margin-bottom: 13px;
+}
+
+.menu-items + .menu-items {
+    margin-left: 20px;
 }
 
 /* Main */
@@ -28,12 +49,15 @@ body {
 .main {
     width: 100%;
     height: 100vh;
+    background-color: var(--colorBkg);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .claim {
+    color: var(--colorTitle);
+    font-size: 30px;
     display: flex;
     justify-content: center;
 }
